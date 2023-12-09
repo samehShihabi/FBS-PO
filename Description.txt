@@ -1,0 +1,36 @@
+Data Description:
+Each Excel file within the dataset serves as an individual case study. The structure of each Excel file is organized to facilitate an easy understanding of case study.
+
+File Composition:
+Each Excel file encompasses a series of sheets, the count of which is determined by the formula: Number of Projects × 3 + 1.
+
+Sheet Details:
+
+# Activity_DATA (Activity Details):
+
+Columns:
+Column [1]: Activity ID
+Column [2]: Activity Duration
+Columns [3 onwards]: Activity Predecessors
+
+# CASH_NEEDS (Activity Cost):
+
+Columns:
+Column [1]: Activity ID
+Column [2]: Activity Cost
+
+# PARAMETERS (Activity Parameters):
+
+Items:
+Item [1]: Weight of Delay
+Item [2]: Original Start Time of the Project
+Item [3]: Advance Payment Percentage
+Item [4]: Retained Amount Percentage
+Item [5]: Billing Period Duration
+
+# BUDGET_CONSTRAINTS (Owner's Cash In Flow):
+The final sheet in each Excel file is dedicated to tracking the Owner's Cash In:
+
+Columns:
+Column [1]: Month Number
+Column [2]: Owner's Cash In Flow
